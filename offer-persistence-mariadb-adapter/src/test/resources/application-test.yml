@@ -1,0 +1,4 @@
+test:
+  docker:
+    mariadb:
+      image: mariadb:10.4.11
