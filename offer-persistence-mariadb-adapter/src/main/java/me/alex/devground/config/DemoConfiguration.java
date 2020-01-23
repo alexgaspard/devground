@@ -4,12 +4,19 @@ package me.alex.devground.config;
 import me.alex.devground.models.*;
 import me.alex.devground.ports.*;
 import org.springframework.boot.*;
+import org.springframework.boot.autoconfigure.*;
+import org.springframework.boot.autoconfigure.domain.*;
 import org.springframework.context.annotation.*;
+import org.springframework.data.jpa.repository.config.*;
 
 import java.time.*;
 import java.util.*;
 
 @Configuration
+@EnableAutoConfiguration
+@ComponentScan(basePackages = {"me.alex.devground"})
+@EntityScan(basePackages = {"me.alex.devground.model"})
+@EnableJpaRepositories(basePackages = "me.alex.devground.repositories")
 public class DemoConfiguration {
 
     @Bean
