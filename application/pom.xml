@@ -40,11 +40,11 @@
             <artifactId>offer-persistence-h2-adapter</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-        <dependency>
-            <groupId>me.alex</groupId>
-            <artifactId>offer-persistence-mariadb-adapter</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>me.alex</groupId>-->
+        <!--            <artifactId>offer-persistence-mariadb-adapter</artifactId>-->
+        <!--            <version>0.0.1-SNAPSHOT</version>-->
+        <!--        </dependency>-->
         <dependency>
             <groupId>me.alex</groupId>
             <artifactId>notify-adapter</artifactId>
