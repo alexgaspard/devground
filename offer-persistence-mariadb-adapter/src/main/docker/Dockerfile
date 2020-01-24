@@ -1,5 +1,5 @@
-FROM mariadb:10.4.11
+FROM postgres:12-alpine
 
-HEALTHCHECK CMD mysqladmin -p$MYSQL_ROOT_PASSWORD ping
+HEALTHCHECK CMD psql --host localhost --username postgres --quiet --no-align --tuples-only --list
 
-CMD ["mysqld"]
+CMD ["postgres"]

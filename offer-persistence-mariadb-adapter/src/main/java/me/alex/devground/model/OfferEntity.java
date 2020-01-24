@@ -9,9 +9,11 @@ import java.util.*;
 public class OfferEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(columnDefinition = "serial")
     private final long id;
     private final Instant startDate;
+
     private final Duration validityPeriod;
     private final Currency currency;
     private final double price;
