@@ -12,3 +12,10 @@ Choosing a h2 database or a mariadb instance needs only to change the dependency
 - [API versioning](https://medium.com/@XenoSnowFox/youre-thinking-about-api-versioning-in-the-wrong-way-6c656c1c516b)
 - [BDD for domain modules](https://cucumber.io/)
 - [Integration tests](https://www.testcontainers.org/)
+
+## Next 
+
+- gRPC
+- Jigsaw 
+- Reactive programming 
+
